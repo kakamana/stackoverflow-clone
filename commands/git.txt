@@ -1,0 +1,10 @@
+git init #To initialize at local directory for git
+git add . #Add initial files
+git commit -m 'Initialization of nextjs applicaiton' #Commit with comments for inital commit
+git branch -M main #Add to main branch
+git remote add origin https://github.com/kakamana/stackoverflow-clone.git #git repo
+git push -u origin main #push to git
+
+git pull origin main #if connflicts or want to get latest from git repo
+
+git push -f origin main #force push
